@@ -1,0 +1,38 @@
+<?cml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+
+<task id="calendar-disable">
+    <title>How to Disable the Calendar</title>
+    <taskbody>
+        <context>
+            <image href="projects/aurora/resources/images/demo_p_home_power_off.png" alt=""/>
+            <image href="projects/aurora/resources/images/demo_p_home_set.png" alt=""/>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the POWER icon to turn off the generator (switch left, color red).</cmd>
+            </step>
+            <step>
+                <cmd>Click the SETTINGS icon.</cmd>
+            </step>
+            <step>
+                <cmd>Click the ENABLE CALENDAR icon.</cmd>
+            </step>
+            <step>
+                <cmd>Select the OFF option using the arrows.</cmd>
+            </step>
+            <step>
+                <cmd>Click the SAVE icon to confirm your selection.</cmd>
+            </step>
+            <step>
+                <cmd>Click the BACK icon to go to the homepage.</cmd>
+            </step>
+            <step>
+                <cmd>Check if the option ENABLE CALENDAR is set to OFF to confirm it was successfully updated.</cmd>
+            </step>
+        </steps>
+        <result>
+            <p>The generator now produces ozone continuously, ignoring the times set in the calendar.</p>
+        </result>
+    </taskbody>
+</task>

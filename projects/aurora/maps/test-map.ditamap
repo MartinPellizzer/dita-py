@@ -1,0 +1,7 @@
+<?cml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+
+<map id="getting-started-guide" title="Getting Started Guide">
+    <topicref href="projects/aurora/topics/tasks/calendar-enable.dita" type="task"/>
+    <topicref href="projects/aurora/topics/tasks/calendar-disable.dita" type="task"/>
+</map>
