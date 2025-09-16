@@ -4,6 +4,8 @@ DISPLAY_PAGE_HOME_SETTINGS = f'''Clicca l'icona "IMPOSTAZIONI".'''
 DISPLAY_PAGE_HOME_CALENDAR_ENABLE = f'''Verifica che l'opzione "ABILITA CALENDARIO" sia impostata su "ON".'''
 DISPLAY_PAGE_HOME_CALENDAR_DISABLE = f'''Verifica che l'opzione "ABILITA CALENDARIO" sia impostata su "OFF".'''
 
+DISPLAY_PAGE_PASSWORD = f'''Inserisci la password e clicca il pulsante "OK" per continuare.'''
+
 DISPLAY_PAGE_SETTINGS_CALENDAR_ENABLE = f'''Clicca l'icona "ABILITA CALENDARIO".'''
 
 DISPLAY_PAGE_CALENDAR_ENABLE_ON = f'''Clicca l'icona "FRECCIA IN ALTO" per selezionare l'opzione "ON".'''

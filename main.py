@@ -1,7 +1,10 @@
 import os
 import xml.etree.ElementTree as ET
 
+import task_gen
 import publish_pdf
+
+task_gen.gen()
 
 proj = 'aurora'
 
