@@ -1,8 +1,9 @@
-<?cml version="1.0" encoding="UTF-8"?>
+
+    <?cml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 
     <task id="calendar-enable">
-        <title>Come Abilitare il Calendario</title>
+        <title>How to Enable the Calendar</title>
         <taskbody>
             <context>
                 <image href="projects/aurora/resources/images/demo_p_home_power_off.png" alt=""/>
@@ -11,33 +12,33 @@
                 <image href="projects/aurora/resources/images/demo_p_cal_on.png" alt=""/>
                 <image href="projects/aurora/resources/images/demo_p_cal_on_save.png" alt=""/>
                 <image href="projects/aurora/resources/images/demo_p_set_back.png" alt=""/>
-                <image href="projects/aurora/resources/images/demo_p_home_cal_on.png" alt=""/>
+                <image href="projects/aurora/resources/images/demo_p_home_cal.png" alt=""/>
                 <image href="projects/aurora/resources/images/demo_p_home_cal_power_on.png" alt=""/>
             </context>
             <steps>
                 <step>
-                    <cmd>Clicca l'icona "POWER" per spegnere il generatore (switch rosso, posizione sinistra).</cmd>
+                    Clicca l'icona "POWER" per spegnere il generatore (switch rosso, posizione sinistra).
                 </step>
                 <step>
-                    <cmd>Clicca l'icona "IMPOSTAZIONI".</cmd>
+                    Clicca l'icona "IMPOSTAZIONI".
                 </step>
                 <step>
-                    <cmd>Clicca l'icona "ABILITA CALENDARIO".</cmd>
+                    Clicca l'icona "ABILITA CALENDARIO".
                 </step>
                 <step>
-                    <cmd>Clicca l'icona "FRECCIA IN ALTO" per selezionare l'opzione "ON".</cmd>
+                    Clicca l'icona "FRECCIA IN ALTO" per selezionare l'opzione "ON".
                 </step>
                 <step>
-                    <cmd>Clicca l'icona "SALVA" per confermare la selezione.</cmd>
+                    Clicca l'icona "SALVA" per confermare la selezione.
                 </step>
                 <step>
-                    <cmd>Clicca l'icona "INDIETRO" per tornare alla pagina principale.</cmd>
+                    Clicca l'icona "INDIETRO" per tornare alla pagina principale.
                 </step>
                 <step>
-                    <cmd>Verifica che l'opzione "ABILITA CALENDARIO" sia impostata su "ON".</cmd>
+                    Verifica che l'opzione "ABILITA CALENDARIO" sia impostata su "ON".
                 </step>
                 <step>
-                    <cmd>Se vuoi avviare il generatore, clicca l'icona "POWER" (switch verde, posizione destra).</cmd>
+                    Se vuoi avviare il generatore, clicca l'icona "POWER" (switch verde, posizione destra).
                 </step>
             </steps>
             <result>

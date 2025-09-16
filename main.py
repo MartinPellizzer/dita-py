@@ -29,8 +29,8 @@ def map_gen(map_filepath):
             tmp = tmp.strip().split('" ')[0]
             with open(tmp) as f: topic_xml = f.read()
             for topic_line in topic_xml.split('\n'):
-                if topic_line.startswith('<?cml '): continue
-                if topic_line.startswith('<!DOCTYPE '): continue
+                if topic_line.strip().startswith('<?cml '): continue
+                if topic_line.strip().startswith('<!DOCTYPE '): continue
                 map_xml_output += '    ' + topic_line + '\n'
         else:
             map_xml_output += line + '\n'

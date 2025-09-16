@@ -65,15 +65,54 @@ def pdf_image_right(pdf, href):
     last_tag = 'img'
     pdf.ln(gap_image)
 
+def pdf_image_grid_2(pdf, href):
+    global y_cur
+    if image_num_cur % 2 == 0:
+        y_cur = pdf.y
+        gap = a4_w_mm - container_w
+        pdf.x = gap // 2
+        pdf.image(href, w=container_w//2 - gap_image//2)
+        last_tag = 'img'
+    elif image_num_cur % 2 == 1:
+        pdf.y = y_cur
+        gap = a4_w_mm - container_w
+        pdf.x = (gap // 2) + container_w//2 + gap_image//2
+        pdf.image(href, w=container_w//2 - gap_image//2)
+        last_tag = 'img'
+        pdf.ln(gap_image)
+
+def pdf_image_grid_3(pdf, href):
+    global y_cur
+    if image_num_cur % 3 == 0:
+        y_cur = pdf.y
+        gap = a4_w_mm - container_w
+        pdf.x = gap // 2
+        pdf.image(href, w=container_w//3 - gap_image//2)
+        last_tag = 'img'
+    elif image_num_cur % 3 == 1:
+        pdf.y = y_cur
+        gap = a4_w_mm - container_w
+        pdf.x = (gap // 2) + container_w//3 + gap_image//2
+        pdf.image(href, w=container_w//3 - gap_image//2)
+        last_tag = 'img'
+    elif image_num_cur % 3 == 2:
+        pdf.y = y_cur
+        gap = a4_w_mm - container_w
+        pdf.x = (gap // 2) + container_w//3 * 2 + gap_image//2 * 2
+        pdf.image(href, w=container_w//3 - gap_image//2)
+        last_tag = 'img'
+        pdf.ln(gap_image)
+
 def gen():
     global image_num_cur
     pdf = FPDF()
-    pdf.add_page()
+    # pdf.add_page()
     tree = ET.parse('tmp/map.ditamap')
     root = tree.getroot()
     if root.tag == 'map':
         for task in root:
             if task.tag == 'task':
+                pdf.add_page()
                 for child in task:
                     if child.tag == 'title':
                         title_text = child.text
@@ -83,12 +122,9 @@ def gen():
                         child_context = child[0]
                         for child_image in child_context:
                             href = child_image.attrib['href']
-                            if image_num_cur % 2 == 0:
-                                pdf_image_left(pdf, href)
-                            else:
-                                pdf_image_right(pdf, href)
+                            pdf_image_grid_3(pdf, href)
                             image_num_cur += 1
-                        if image_num_cur % 2 == 1:
+                        if image_num_cur % 3 == 2:
                             pdf.ln()
                         pdf.ln(gap_image)
                         image_num_cur = 0

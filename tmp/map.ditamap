@@ -3,87 +3,94 @@
 
 <map id="getting-started-guide" title="Getting Started Guide">
     
-    <task id="calendar-enable">
-        <title>How to Enable the Calendar</title>
-        <taskbody>
-            <context>
-                <image href="projects/aurora/resources/images/demo_p_home_power_off.png" alt=""/>
-                <image href="projects/aurora/resources/images/demo_p_home_set.png" alt=""/>
-                <image href="projects/aurora/resources/images/demo_p_set_cal.png" alt=""/>
-                <image href="projects/aurora/resources/images/demo_p_cal_on.png" alt=""/>
-                <image href="projects/aurora/resources/images/demo_p_cal_on_save.png" alt=""/>
-                <image href="projects/aurora/resources/images/demo_p_set_back.png" alt=""/>
-                <image href="projects/aurora/resources/images/demo_p_home_cal.png" alt=""/>
-                <image href="projects/aurora/resources/images/demo_p_home_cal_power_on.png" alt=""/>
-            </context>
-            <steps>
-                <step>
-                    <cmd>Click the POWER icon to turn off the generator (switch left, color red).</cmd>
-                </step>
-                <step>
-                    <cmd>Click the SETTINGS icon.</cmd>
-                </step>
-                <step>
-                    <cmd>Click the ENABLE CALENDAR icon.</cmd>
-                </step>
-                <step>
-                    <cmd>Select the ON option using the arrows.</cmd>
-                </step>
-                <step>
-                    <cmd>Click the SAVE icon to confirm your selection.</cmd>
-                </step>
-                <step>
-                    <cmd>Click the BACK icon to go to the homepage.</cmd>
-                </step>
-                <step>
-                    <cmd>Check if the option ENABLE CALENDAR is set to ON to confirm it was successfully updated.</cmd>
-                </step>
-                <step>
-                    <cmd>If you want to start the generator, click the POWER icon to turn it on (switch right, color green).</cmd>
-                </step>
-            </steps>
-            <result>
-                <p>The generator now produces ozone only during the times set in the calendar.</p>
-            </result>
-        </taskbody>
-    </task>
+        <task id="calendar-enable">
+            <title>Come Abilitare il Calendario</title>
+            <taskbody>
+                <context>
+                    <image href="projects/aurora/resources/images/demo_p_home_power_off.png" alt=""/>
+                    <image href="projects/aurora/resources/images/demo_p_home_set.png" alt=""/>
+                    <image href="projects/aurora/resources/images/demo_p_set_cal.png" alt=""/>
+                    <image href="projects/aurora/resources/images/demo_p_cal_on.png" alt=""/>
+                    <image href="projects/aurora/resources/images/demo_p_cal_on_save.png" alt=""/>
+                    <image href="projects/aurora/resources/images/demo_p_set_back.png" alt=""/>
+                    <image href="projects/aurora/resources/images/demo_p_home_cal_on.png" alt=""/>
+                    <image href="projects/aurora/resources/images/demo_p_home_cal_power_on.png" alt=""/>
+                </context>
+                <steps>
+                    <step>
+                        <cmd>Clicca l'icona "POWER" per spegnere il generatore (switch rosso, posizione sinistra).</cmd>
+                    </step>
+                    <step>
+                        <cmd>Clicca l'icona "IMPOSTAZIONI".</cmd>
+                    </step>
+                    <step>
+                        <cmd>Clicca l'icona "ABILITA CALENDARIO".</cmd>
+                    </step>
+                    <step>
+                        <cmd>Clicca l'icona "FRECCIA IN ALTO" per selezionare l'opzione "ON".</cmd>
+                    </step>
+                    <step>
+                        <cmd>Clicca l'icona "SALVA" per confermare la selezione.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Clicca l'icona "INDIETRO" per tornare alla pagina principale.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Verifica che l'opzione "ABILITA CALENDARIO" sia impostata su "ON".</cmd>
+                    </step>
+                    <step>
+                        <cmd>Se vuoi avviare il generatore, clicca l'icona "POWER" (switch verde, posizione destra).</cmd>
+                    </step>
+                </steps>
+                <result>
+                    <p>The generator now produces ozone only during the times set in the calendar.</p>
+                </result>
+            </taskbody>
+        </task>
     
-    
-    <task id="calendar-disable">
-        <title>How to Disable the Calendar</title>
-        <taskbody>
-            <context>
-                <image href="projects/aurora/resources/images/demo_p_home_power_off.png" alt=""/>
-                <image href="projects/aurora/resources/images/demo_p_home_set.png" alt=""/>
-            </context>
-            <steps>
-                <step>
-                    <cmd>Click the POWER icon to turn off the generator (switch left, color red).</cmd>
-                </step>
-                <step>
-                    <cmd>Click the SETTINGS icon.</cmd>
-                </step>
-                <step>
-                    <cmd>Click the ENABLE CALENDAR icon.</cmd>
-                </step>
-                <step>
-                    <cmd>Select the OFF option using the arrows.</cmd>
-                </step>
-                <step>
-                    <cmd>Click the SAVE icon to confirm your selection.</cmd>
-                </step>
-                <step>
-                    <cmd>Click the BACK icon to go to the homepage.</cmd>
-                </step>
-                <step>
-                    <cmd>Check if the option ENABLE CALENDAR is set to OFF to confirm it was successfully updated.</cmd>
-                </step>
-            </steps>
-            <result>
-                <p>The generator now produces ozone continuously, ignoring the times set in the calendar.</p>
-            </result>
-        </taskbody>
-    </task>
-    
+        <task id="calendar-disable">
+            <title>Come Disabilitare il Calendario</title>
+            <taskbody>
+                <context>
+                    <image href="projects/aurora/resources/images/demo_p_home_power_off.png" alt=""/>
+                    <image href="projects/aurora/resources/images/demo_p_home_set.png" alt=""/>
+                    <image href="projects/aurora/resources/images/demo_p_set_cal.png" alt=""/>
+                    <image href="projects/aurora/resources/images/demo_p_cal_off.png" alt=""/>
+                    <image href="projects/aurora/resources/images/demo_p_cal_on_save.png" alt=""/>
+                    <image href="projects/aurora/resources/images/demo_p_set_back.png" alt=""/>
+                    <image href="projects/aurora/resources/images/demo_p_home_cal_off.png" alt=""/>
+                    <image href="projects/aurora/resources/images/demo_p_home_cal_power_on.png" alt=""/>
+                </context>
+                <steps>
+                    <step>
+                        <cmd>Clicca l'icona "POWER" per spegnere il generatore (switch rosso, posizione sinistra).</cmd>
+                    </step>
+                    <step>
+                        <cmd>Clicca l'icona "IMPOSTAZIONI".</cmd>
+                    </step>
+                    <step>
+                        <cmd>Clicca l'icona "ABILITA CALENDARIO".</cmd>
+                    </step>
+                    <step>
+                        <cmd>Clicca l'icona "FRECCIA IN ALTO" per selezionare l'opzione "ON".</cmd>
+                    </step>
+                    <step>
+                        <cmd>Clicca l'icona "SALVA" per confermare la selezione.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Clicca l'icona "INDIETRO" per tornare alla pagina principale.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Verifica che l'opzione "ABILITA CALENDARIO" sia impostata su "OFF".</cmd>
+                    </step>
+                    <step>
+                        <cmd>Se vuoi avviare il generatore, clicca l'icona "POWER" (switch verde, posizione destra).</cmd>
+                    </step>
+                </steps>
+                <result>
+                    <p>The generator now produces ozone only during the times set in the calendar.</p>
+                </result>
+            </taskbody>
+        </task>
 </map>
 
