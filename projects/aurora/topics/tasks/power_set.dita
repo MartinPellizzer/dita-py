@@ -1,18 +1,18 @@
 <?cml version="1.0" encoding="UTF-8"?>
         <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-        <task id="calendar-enable">
-            <title>Come Abilitare il Calendario</title>
+        <task id="power_set">
+            <title>Come Impostare la Produzione di Ozono</title>
             <taskbody>
                 <context>
                     <image href="projects/aurora/resources/images/demo_p_home_off.png" alt=""/>
                     <image href="projects/aurora/resources/images/demo_generators_p_home_set.png" alt=""/>
                     <image href="projects/aurora/resources/images/demo_p_password.png" alt=""/>
-                    <image href="projects/aurora/resources/images/demo_p_set_cal.png" alt=""/>
-                    <image href="projects/aurora/resources/images/demo_p_cal_on.png" alt=""/>
-                    <image href="projects/aurora/resources/images/demo_p_cal_on_save.png" alt=""/>
+                    <image href="projects/aurora/resources/images/demo_generators_p_set_power.png" alt=""/>
+                    <image href="projects/aurora/resources/images/demo_p_generators_select.png" alt=""/>
+                    <image href="projects/aurora/resources/images/demo_p_generators_save.png" alt=""/>
                     <image href="projects/aurora/resources/images/demo_p_set_back.png" alt=""/>
-                    <image href="projects/aurora/resources/images/demo_p_home_cal_on.png" alt=""/>
-                    <image href="projects/aurora/resources/images/demo_p_home_cal_on_power_on.png" alt=""/>
+                    <image href="projects/aurora/resources/images/demo_p_home_generators.png" alt=""/>
+                    <image href="projects/aurora/resources/images/demo_p_home_power_on.png" alt=""/>
                 </context>
                 <steps>
                     <step>
@@ -25,10 +25,10 @@
                         <cmd>Inserisci la password e clicca il pulsante "OK" per continuare.</cmd>
                     </step>
                     <step>
-                        <cmd>Clicca l'icona "ABILITA CALENDARIO".</cmd>
+                        <cmd>Clicca l'icona "POWER".</cmd>
                     </step>
                     <step>
-                        <cmd>Clicca l'icona "FRECCIA IN ALTO" per selezionare l'opzione "ON".</cmd>
+                        <cmd>Clicca l'icona "FRECCIA IN ALTO" o "FRECCIA IN BASSO" per selezionare il numero di generatori attivi (minimo 1, massimo 3). Maggiore e il numero di generatori attivi, maggiore e la produzione di ozono.</cmd>
                     </step>
                     <step>
                         <cmd>Clicca l'icona "SALVA" per confermare la selezione.</cmd>
@@ -37,7 +37,7 @@
                         <cmd>Clicca l'icona "INDIETRO" per tornare alla pagina principale.</cmd>
                     </step>
                     <step>
-                        <cmd>Verifica che l'opzione "ABILITA CALENDARIO" sia impostata su "ON".</cmd>
+                        <cmd>Verifica che il valore di "NUMERO GENERATORI USATI" corrisponda a quello appena impostato.</cmd>
                     </step>
                     <step>
                         <cmd>Se vuoi avviare il generatore, clicca l'icona "SWITCH" (switch verde, posizione destra).</cmd>

@@ -1,12 +1,11 @@
 <?cml version="1.0" encoding="UTF-8"?>
         <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-
         <task id="calendar-disable">
             <title>Come Disabilitare il Calendario</title>
             <taskbody>
                 <context>
-                    <image href="projects/aurora/resources/images/demo_p_home_power_off.png" alt=""/>
-                    <image href="projects/aurora/resources/images/demo_p_home_set.png" alt=""/>
+                    <image href="projects/aurora/resources/images/demo_p_home_off.png" alt=""/>
+                    <image href="projects/aurora/resources/images/demo_generators_p_home_set.png" alt=""/>
                     <image href="projects/aurora/resources/images/demo_p_password.png" alt=""/>
                     <image href="projects/aurora/resources/images/demo_p_set_cal.png" alt=""/>
                     <image href="projects/aurora/resources/images/demo_p_cal_off.png" alt=""/>
@@ -17,7 +16,7 @@
                 </context>
                 <steps>
                     <step>
-                        <cmd>Clicca l'icona "POWER" per spegnere il generatore (switch rosso, posizione sinistra).</cmd>
+                        <cmd>Clicca l'icona "SWITCH" per spegnere il generatore (switch rosso, posizione sinistra).</cmd>
                     </step>
                     <step>
                         <cmd>Clicca l'icona "IMPOSTAZIONI".</cmd>
@@ -29,7 +28,7 @@
                         <cmd>Clicca l'icona "ABILITA CALENDARIO".</cmd>
                     </step>
                     <step>
-                        <cmd>Clicca l'icona "FRECCIA IN ALTO" per selezionare l'opzione "ON".</cmd>
+                        <cmd>Clicca l'icona "FRECCIA IN BASSO" per selezionare l'opzione "OFF".</cmd>
                     </step>
                     <step>
                         <cmd>Clicca l'icona "SALVA" per confermare la selezione.</cmd>
@@ -41,7 +40,7 @@
                         <cmd>Verifica che l'opzione "ABILITA CALENDARIO" sia impostata su "OFF".</cmd>
                     </step>
                     <step>
-                        <cmd>Se vuoi avviare il generatore, clicca l'icona "POWER" (switch verde, posizione destra).</cmd>
+                        <cmd>Se vuoi avviare il generatore, clicca l'icona "SWITCH" (switch verde, posizione destra).</cmd>
                     </step>
                 </steps>
                 <result>
