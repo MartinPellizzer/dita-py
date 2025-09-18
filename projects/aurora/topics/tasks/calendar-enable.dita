@@ -4,10 +4,10 @@
             <title>Come Abilitare il Calendario</title>
             <taskbody>
                 <context>
-                    <image href="projects/aurora/resources/images/demo_p_home_off.png" alt=""/>
-                    <image href="projects/aurora/resources/images/demo_generators_p_home_set.png" alt=""/>
-                    <image href="projects/aurora/resources/images/demo_p_password.png" alt=""/>
-                    <image href="projects/aurora/resources/images/demo_p_set_cal.png" alt=""/>
+                    <image href="projects/aurora/resources/images/display/demo_p_home_stop.png" alt=""/>
+                    <image href="projects/aurora/resources/images/display/demo_p_home_set.png" alt=""/>
+                    <image href="projects/aurora/resources/images/display/demo_p_password.png" alt=""/>
+                    <image href="projects/aurora/resources/images/display/demo_p_set_cal_en.png" alt=""/>
                     <image href="projects/aurora/resources/images/demo_p_cal_on.png" alt=""/>
                     <image href="projects/aurora/resources/images/demo_p_cal_on_save.png" alt=""/>
                     <image href="projects/aurora/resources/images/demo_p_set_back.png" alt=""/>

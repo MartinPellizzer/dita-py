@@ -2,18 +2,18 @@ import g
 import data
 
 def gen():
-    power_set = f'''
+    power_up = f'''
         <?cml version="1.0" encoding="UTF-8"?>
         <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-        <task id="power_set">
-            <title>Come Impostare la Produzione di Ozono</title>
+        <task id="power_up">
+            <title>Come Aumentare la Produzione di Ozono</title>
             <taskbody>
                 <context>
-                    <image href="projects/aurora/resources/images/demo_p_home_off.png" alt=""/>
-                    <image href="projects/aurora/resources/images/demo_generators_p_home_set.png" alt=""/>
-                    <image href="projects/aurora/resources/images/demo_p_password.png" alt=""/>
-                    <image href="projects/aurora/resources/images/demo_generators_p_set_power.png" alt=""/>
-                    <image href="projects/aurora/resources/images/demo_p_generators_select.png" alt=""/>
+                    {data.DISPLAY_IMAGE_PAGE_HOME_STOP}
+                    {data.DISPLAY_IMAGE_PAGE_HOME_SET}
+                    {data.DISPLAY_IMAGE_PAGE_PASSWORD}
+                    {data.DISPLAY_IMAGE_PAGE_SET_GEN}
+                    {data.DISPLAY_IMAGE_PAGE_GEN_UP}
                     <image href="projects/aurora/resources/images/demo_p_generators_save.png" alt=""/>
                     <image href="projects/aurora/resources/images/demo_p_set_back.png" alt=""/>
                     <image href="projects/aurora/resources/images/demo_p_home_generators.png" alt=""/>
@@ -54,7 +54,61 @@ def gen():
             </taskbody>
         </task>
     '''.strip()
-    with open(f'{g.TASKS_FOLDERPATH}/power_set.dita', 'w') as f: f.write(power_set)
+    with open(f'{g.TASKS_FOLDERPATH}/power_up.dita', 'w') as f: f.write(power_up)
+    
+    power_down = f'''
+        <?cml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+        <task id="power_down">
+            <title>Come Diminuire la Produzione di Ozono</title>
+            <taskbody>
+                <context>
+                    {data.DISPLAY_IMAGE_PAGE_HOME_STOP}
+                    {data.DISPLAY_IMAGE_PAGE_HOME_SET}
+                    {data.DISPLAY_IMAGE_PAGE_PASSWORD}
+                    {data.DISPLAY_IMAGE_PAGE_SET_GEN}
+                    {data.DISPLAY_IMAGE_PAGE_GEN_DOWN}
+                    <image href="projects/aurora/resources/images/demo_p_generators_save.png" alt=""/>
+                    <image href="projects/aurora/resources/images/demo_p_set_back.png" alt=""/>
+                    <image href="projects/aurora/resources/images/demo_p_home_generators.png" alt=""/>
+                    <image href="projects/aurora/resources/images/demo_p_home_power_on.png" alt=""/>
+                </context>
+                <steps>
+                    <step>
+                        <cmd>{data.DISPLAY_PAGE_HOME_POWER_OFF}</cmd>
+                    </step>
+                    <step>
+                        <cmd>{data.DISPLAY_PAGE_HOME_SETTINGS}</cmd>
+                    </step>
+                    <step>
+                        <cmd>{data.DISPLAY_PAGE_PASSWORD}</cmd>
+                    </step>
+                    <step>
+                        <cmd>{data.DISPLAY_PAGE_SETTINGS_GENERATORS}</cmd>
+                    </step>
+                    <step>
+                        <cmd>{data.DISPLAY_PAGE_GENERATORS_ARROWS}</cmd>
+                    </step>
+                    <step>
+                        <cmd>{data.DISPLAY_ICON_SAVE}</cmd>
+                    </step>
+                    <step>
+                        <cmd>{data.DISPLAY_PAGE_SETTINGS_BACK}</cmd>
+                    </step>
+                    <step>
+                        <cmd>{data.DISPLAY_PAGE_HOME_GENERATORS}</cmd>
+                    </step>
+                    <step>
+                        <cmd>{data.DISPLAY_PAGE_HOME_POWER_ON}</cmd>
+                    </step>
+                </steps>
+                <result>
+                    <p>The generator now produces ozone only during the times set in the calendar.</p>
+                </result>
+            </taskbody>
+        </task>
+    '''.strip()
+    with open(f'{g.TASKS_FOLDERPATH}/power_down.dita', 'w') as f: f.write(power_down)
 
     calendar_enable = f'''
         <?cml version="1.0" encoding="UTF-8"?>
@@ -63,10 +117,10 @@ def gen():
             <title>Come Abilitare il Calendario</title>
             <taskbody>
                 <context>
-                    <image href="projects/aurora/resources/images/demo_p_home_off.png" alt=""/>
-                    <image href="projects/aurora/resources/images/demo_generators_p_home_set.png" alt=""/>
-                    <image href="projects/aurora/resources/images/demo_p_password.png" alt=""/>
-                    <image href="projects/aurora/resources/images/demo_p_set_cal.png" alt=""/>
+                    {data.DISPLAY_IMAGE_PAGE_HOME_STOP}
+                    {data.DISPLAY_IMAGE_PAGE_HOME_SET}
+                    {data.DISPLAY_IMAGE_PAGE_PASSWORD}
+                    {data.DISPLAY_IMAGE_PAGE_SET_CAL_EN}
                     <image href="projects/aurora/resources/images/demo_p_cal_on.png" alt=""/>
                     <image href="projects/aurora/resources/images/demo_p_cal_on_save.png" alt=""/>
                     <image href="projects/aurora/resources/images/demo_p_set_back.png" alt=""/>
@@ -117,10 +171,10 @@ def gen():
             <title>Come Disabilitare il Calendario</title>
             <taskbody>
                 <context>
-                    <image href="projects/aurora/resources/images/demo_p_home_off.png" alt=""/>
-                    <image href="projects/aurora/resources/images/demo_generators_p_home_set.png" alt=""/>
-                    <image href="projects/aurora/resources/images/demo_p_password.png" alt=""/>
-                    <image href="projects/aurora/resources/images/demo_p_set_cal.png" alt=""/>
+                    {data.DISPLAY_IMAGE_PAGE_HOME_STOP}
+                    {data.DISPLAY_IMAGE_PAGE_HOME_SET}
+                    {data.DISPLAY_IMAGE_PAGE_PASSWORD}
+                    {data.DISPLAY_IMAGE_PAGE_SET_CAL_EN}
                     <image href="projects/aurora/resources/images/demo_p_cal_off.png" alt=""/>
                     <image href="projects/aurora/resources/images/demo_p_cal_off_save.png" alt=""/>
                     <image href="projects/aurora/resources/images/demo_p_set_back.png" alt=""/>

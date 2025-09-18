@@ -1,14 +1,14 @@
 <?cml version="1.0" encoding="UTF-8"?>
         <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-        <task id="power_set">
-            <title>Come Impostare la Produzione di Ozono</title>
+        <task id="power_down">
+            <title>Come Diminuire la Produzione di Ozono</title>
             <taskbody>
                 <context>
                     <image href="projects/aurora/resources/images/display/demo_p_home_stop.png" alt=""/>
                     <image href="projects/aurora/resources/images/display/demo_p_home_set.png" alt=""/>
                     <image href="projects/aurora/resources/images/display/demo_p_password.png" alt=""/>
-                    <image href="projects/aurora/resources/images/demo_generators_p_set_power.png" alt=""/>
-                    <image href="projects/aurora/resources/images/demo_p_generators_select.png" alt=""/>
+                    <image href="projects/aurora/resources/images/display/demo_p_set_gen.png" alt=""/>
+                    <image href="projects/aurora/resources/images/display/demo_p_gen_down.png" alt=""/>
                     <image href="projects/aurora/resources/images/demo_p_generators_save.png" alt=""/>
                     <image href="projects/aurora/resources/images/demo_p_set_back.png" alt=""/>
                     <image href="projects/aurora/resources/images/demo_p_home_generators.png" alt=""/>

@@ -1,3 +1,5 @@
+import g
+
 DISPLAY_PAGE_HOME_POWER_ON = f'''Se vuoi avviare il generatore, clicca l'icona "SWITCH" (switch verde, posizione destra).'''
 DISPLAY_PAGE_HOME_POWER_OFF = f'''Clicca l'icona "SWITCH" per spegnere il generatore (switch rosso, posizione sinistra).'''
 DISPLAY_PAGE_HOME_SETTINGS = f'''Clicca l'icona "IMPOSTAZIONI".'''
@@ -19,3 +21,32 @@ DISPLAY_PAGE_CALENDAR_ENABLE_SAVE = f'''Clicca l'icona "SALVA" per confermare la
 DISPLAY_PAGE_SETTINGS_BACK = f'''Clicca l'icona "INDIETRO" per tornare alla pagina principale.'''
 
 DISPLAY_ICON_SAVE = f'''Clicca l'icona "SALVA" per confermare la selezione.'''
+
+##############################################################################
+##############################################################################
+##############################################################################
+
+DISPLAY_IMAGE_PAGE_HOME_START = f'''<image href="projects/{g.PROJECT_NAME}/resources/images/display/demo_p_home_start.png" alt=""/>'''
+DISPLAY_IMAGE_PAGE_HOME_STOP = f'''<image href="projects/{g.PROJECT_NAME}/resources/images/display/demo_p_home_stop.png" alt=""/>'''
+DISPLAY_IMAGE_PAGE_HOME_SET = f'''<image href="projects/{g.PROJECT_NAME}/resources/images/display/demo_p_home_set.png" alt=""/>'''
+DISPLAY_IMAGE_PAGE_HOME_SENSOR_VAL = f'''<image href="projects/{g.PROJECT_NAME}/resources/images/display/demo_p_home_sensor_val.png" alt=""/>'''
+DISPLAY_IMAGE_PAGE_HOME_GEN_VAL = f'''<image href="projects/{g.PROJECT_NAME}/resources/images/display/demo_p_home_gen_val.png" alt=""/>'''
+DISPLAY_IMAGE_PAGE_HOME_CAL_OFF = f'''<image href="projects/{g.PROJECT_NAME}/resources/images/display/demo_p_home_cal_off.png" alt=""/>'''
+DISPLAY_IMAGE_PAGE_HOME_CAL_ON = f'''<image href="projects/{g.PROJECT_NAME}/resources/images/display/demo_p_home_cal_on.png" alt=""/>'''
+DISPLAY_IMAGE_PAGE_SIGNAL_EXT = f'''<image href="projects/{g.PROJECT_NAME}/resources/images/display/demo_p_home_signal_ext.png" alt=""/>'''
+DISPLAY_IMAGE_PAGE_SIGNAL_INT = f'''<image href="projects/{g.PROJECT_NAME}/resources/images/display/demo_p_home_signal_int.png" alt=""/>'''
+
+DISPLAY_IMAGE_PAGE_PASSWORD = f'''<image href="projects/{g.PROJECT_NAME}/resources/images/display/demo_p_password.png" alt=""/>'''
+
+DISPLAY_IMAGE_PAGE_SET_BACK = f'''<image href="projects/{g.PROJECT_NAME}/resources/images/display/demo_p_set_back.png" alt=""/>'''
+DISPLAY_IMAGE_PAGE_SET_CAL = f'''<image href="projects/{g.PROJECT_NAME}/resources/images/display/demo_p_set_cal.png" alt=""/>'''
+DISPLAY_IMAGE_PAGE_SET_CAL_EN = f'''<image href="projects/{g.PROJECT_NAME}/resources/images/display/demo_p_set_cal_en.png" alt=""/>'''
+DISPLAY_IMAGE_PAGE_SET_CLK = f'''<image href="projects/{g.PROJECT_NAME}/resources/images/display/demo_p_set_clk.png" alt=""/>'''
+DISPLAY_IMAGE_PAGE_SET_GEN = f'''<image href="projects/{g.PROJECT_NAME}/resources/images/display/demo_p_set_gen.png" alt=""/>'''
+DISPLAY_IMAGE_PAGE_SET_SENSOR_OZONE = f'''<image href="projects/{g.PROJECT_NAME}/resources/images/display/demo_p_set_sensor_ozone.png" alt=""/>'''
+DISPLAY_IMAGE_PAGE_SET_SIG = f'''<image href="projects/{g.PROJECT_NAME}/resources/images/display/demo_p_set_sig.png" alt=""/>'''
+
+DISPLAY_IMAGE_PAGE_GEN_BACK = f'''<image href="projects/{g.PROJECT_NAME}/resources/images/display/demo_p_gen_back.png" alt=""/>'''
+DISPLAY_IMAGE_PAGE_GEN_SAVE = f'''<image href="projects/{g.PROJECT_NAME}/resources/images/display/demo_p_gen_save.png" alt=""/>'''
+DISPLAY_IMAGE_PAGE_GEN_UP = f'''<image href="projects/{g.PROJECT_NAME}/resources/images/display/demo_p_gen_up.png" alt=""/>'''
+DISPLAY_IMAGE_PAGE_GEN_DOWN = f'''<image href="projects/{g.PROJECT_NAME}/resources/images/display/demo_p_gen_down.png" alt=""/>'''

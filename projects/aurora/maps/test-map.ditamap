@@ -2,7 +2,8 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 
 <map id="getting-started-guide" title="Getting Started Guide">
-    <topicref href="projects/aurora/topics/tasks/power_set.dita" type="task"/>
+    <topicref href="projects/aurora/topics/tasks/power_up.dita" type="task"/>
+    <topicref href="projects/aurora/topics/tasks/power_down.dita" type="task"/>
     <topicref href="projects/aurora/topics/tasks/calendar-enable.dita" type="task"/>
     <topicref href="projects/aurora/topics/tasks/calendar-disable.dita" type="task"/>
 </map>
